@@ -1,0 +1,64 @@
+body {
+    font-family: Helvetica, sans-serif;
+    background-color: rgb(238, 238, 238);
+    padding: 24px;
+    
+    color: rgb(51, 51, 51);
+    font-size: 12px;
+}
+
+article {
+
+    display: inline-block;
+    width: 65%;
+    vertical-align: top;
+    margin: 4px;
+
+}
+
+aside {
+
+    display: inline-block;
+    width: 30%;
+
+    font-weight: bold;
+
+}
+header{margin-bottom: 36px;}
+
+h1 {
+    margin: 0px;
+    font-size: 22px;
+    
+}
+h1, h2 {
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+h2 {
+    margin-top: 0px;
+    display: inline-block;
+    margin: 0px;
+    font-size: 18px;
+}
+
+.aside_ul_li {
+    list-style: square;
+    list-style:inside;
+    
+
+}
+.aside_ul_li > a{color: blue;
+font-weight: 300;}
+
+.section_ul_li{list-style: square;
+}
+ul{padding-left: 28px;
+    margin-bottom: 18px;}
+
+img {
+    overflow: hidden;
+    width: 65%;
+}
+p{margin-bottom: 18px;}
